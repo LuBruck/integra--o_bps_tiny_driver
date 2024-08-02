@@ -1,0 +1,422 @@
+Erro em baixar_labels:name 'Erro' is not defined  -- 2024-07-31 15:26:46.248437
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 15:26:46.248437
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 15:26:46.248437
+Erro em baixar_labels:name 'Erro' is not defined  -- 2024-07-31 15:30:48.569631
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 15:30:48.569631
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 15:30:48.569631
+Erro em baixar_labels:name 'Erro' is not defined  -- 2024-07-31 15:31:50.749735
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 15:31:50.749735
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 15:31:50.749735
+Erro em baixar_labels:name 'Erro' is not defined  -- 2024-07-31 15:33:01.504548
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 15:33:01.504548
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 15:33:01.504548
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 15:41:17.209687
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 15:41:17.209687
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 15:41:17.209687
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 18:37:18.437861
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 18:37:18.437861
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 18:37:18.437861
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 19:33:29.818009
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 19:34:03.890347
+Erro em baixar_labels:name 'caminho_arquivo_json' is not defined  -- 2024-07-31 19:34:03.890347
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 19:35:12.345393
+Erro em baixar_labels:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 19:36:08.376303
+Erro em baixar_labels:'main' object is not subscriptable  -- 2024-07-31 19:36:08.376303
+Erro em main:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-07-31 19:39:55.314500
+Erro em main:'main' object is not subscriptable  -- 2024-07-31 19:39:55.314500
+Erro em main:'main' object is not subscriptable  -- 2024-07-31 19:42:33.868837
+Erro em main:name 'autenticar_bps' is not defined  -- 2024-07-31 23:20:48.452329
+Erro em main:name 'autenticar_bps' is not defined  -- 2024-07-31 23:21:25.733196
+Erro em upload_file_driver:string indices must be integers, not 'str'  -- 2024-08-01 14:06:31.083574
+Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:06:31.083574
+Erro em upload_file_driver:string indices must be integers, not 'str'  -- 2024-08-01 14:07:19.566516
+Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:07:19.566516
+Erro em upload_file_driver:string indices must be integers, not 'str'  -- 2024-08-01 14:13:11.831298
+Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:13:11.831298
+Erro em upload_file_driver:string indices must be integers, not 'str'  -- 2024-08-01 14:15:29.573218
+Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:15:29.573218
+Erro em upload_file_driver:'names'  -- 2024-08-01 14:29:32.322358
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 52, in <module>
+    eita.upload_file_driver(nome_arquivo)
+  File "/home/lbruck/Desktop/DaMata/utils/api_google_driver/pegar_lista_driver.py", line 125, in upload_file_driver
+    if file_name in arquivo['names']:
+                    ~~~~~~~^^^^^^^^^
+KeyError: 'names'
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:29:32.322358
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 58, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:45:31.072335
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 58, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 14:46:03.409613
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 58, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:03:29.332103
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 58, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:05:08.773565
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 56, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:08:05.170386
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:10:47.381989
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:11:20.594171
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:22:21.618684
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:27:57.950273
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:29:45.711254
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:33:58.948625
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:41:30.913884
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:42:15.623444
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:name 'autenticar_bps' is not defined  -- 2024-08-01 15:42:47.936094
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 21, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em baixar_labels:name 'autenticar_bps' is not defined  -- 2024-08-01 15:45:17.380668
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 35, in <module>
+    baixar_labels()
+  File "/home/lbruck/Desktop/DaMata/utils/baixar_labels.py", line 8, in main
+    token = autenticar_bps()
+            ^^^^^^^^^^^^^^
+NameError: name 'autenticar_bps' is not defined
+
+------------------------------------------Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 15:52:17.116303
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 38, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 17:15:39.565881
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 38, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------Erro em baixar_labels:name 'Path' is not defined  -- 2024-08-01 17:15:39.565881
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 35, in <module>
+    baixar_labels()
+  File "/home/lbruck/Desktop/DaMata/utils/baixar_labels.py", line 12, in main
+    caminho_da_pasta = Path(dados['local_folder_path'])
+                       ^^^^
+NameError: name 'Path' is not defined
+
+------------------------------------------Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 17:18:56.691426
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 38, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------Erro em Coloc_Rastreio:cannot access local variable 'pedidos' where it is not associated with a value  -- 2024-08-01 18:09:25.724884
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 33, in lista_pedidos_tiny
+    if pedidos["retorno"]["status"] == 'Erro' and pedido['retorno']['codigo_erro'] == 20:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'pedidos' where it is not associated with a value
+
+------------------------------------------Erro em Procurar_e_colocar_etiquetas:cannot access local variable 'pedidos' where it is not associated with a value  -- 2024-08-01 18:09:25.724884
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 57, in <module>
+    Proc_coloc_etiqueta_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Procurar_e_colocar_etiquetas.py", line 29, in main
+    pedidos_preparando_tiny = lista_pedidos_tiny(data_inicial='01/01/2024') #situacao="preparando_envio"
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 33, in lista_pedidos_tiny
+    if pedidos["retorno"]["status"] == 'Erro' and pedido['retorno']['codigo_erro'] == 20:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'pedidos' where it is not associated with a value
+
+------------------------------------------Erro em Coloc_Rastreio:cannot access local variable 'pedido' where it is not associated with a value  -- 2024-08-01 18:11:48.092316
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 36, in lista_pedidos_tiny
+    if pedidos["retorno"]["status"] == 'Erro' and pedido['retorno']['codigo_erro'] == 20:
+                                                  ^^^^^^
+UnboundLocalError: cannot access local variable 'pedido' where it is not associated with a value
+
+------------------------------------------Erro em Coloc_Rastreio:cannot access local variable 'pedido' where it is not associated with a value  -- 2024-08-01 18:12:51.904363
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 36, in lista_pedidos_tiny
+    if pedidos["retorno"]["status"] == 'Erro' and pedido['retorno']['codigo_erro'] == 20:
+                                                  ^^^^^^
+UnboundLocalError: cannot access local variable 'pedido' where it is not associated with a value
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 18:13:38.680939
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 42, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 18:32:25.632698
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 42, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 19:18:05.812159
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 43, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 19:18:36.872930
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 43, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 19:22:12.896076
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 41, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro 20, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 19:23:36.691656
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 41, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {pedidos["retorno"]["codigo_erro"]}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro 20, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro <class 'str'>, [{'erro': 'A consulta não retornou registros'}]  -- 2024-08-01 19:24:26.680548
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 41, in lista_pedidos_tiny
+    raise MeuErro(f"Erro {type(pedidos["retorno"]["codigo_erro"])}, {pedidos["retorno"]["erros"]}")
+utils.func_Tiny.MeuErro: Erro <class 'str'>, [{'erro': 'A consulta não retornou registros'}]
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}  -- 2024-08-01 19:27:23.585397
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 68, in lista_pedidos_tiny
+    raise MeuErro(f'Erro ao pegar pedido: {response.status_code} {response.text}')
+utils.func_Tiny.MeuErro: Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}  -- 2024-08-01 19:30:47.818065
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 68, in lista_pedidos_tiny
+    raise MeuErro(f'Erro ao pegar pedido: {response.status_code} {response.text}')
+utils.func_Tiny.MeuErro: Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}  -- 2024-08-01 19:32:41.483505
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 68, in lista_pedidos_tiny
+    raise MeuErro(f'Erro ao pegar pedido: {response.status_code} {response.text}')
+utils.func_Tiny.MeuErro: Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}
+
+------------------------------------------
+Erro em Coloc_Rastreio:Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}  -- 2024-08-01 19:38:59.731856
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 20, in main
+    lista_tiny = lista_pedidos_tiny(data_inicial=_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lbruck/Desktop/DaMata/utils/func_Tiny.py", line 68, in lista_pedidos_tiny
+    raise MeuErro(f'Erro ao pegar pedido: {response.status_code} {response.text}')
+utils.func_Tiny.MeuErro: Erro ao pegar pedido: 200 {"retorno":{"status_processamento":"2","status":"Erro","codigo_erro":"20","erros":[{"erro":"A consulta n\u00e3o retornou registros"}]}}
+
+------------------------------------------
+Erro em Coloc_Rastreio:'NoneType' object is not iterable  -- 2024-08-01 19:40:10.707865
+             traceback:Traceback (most recent call last):
+  File "/home/lbruck/Desktop/DaMata/main.py", line 30, in <module>
+    Coloc_Rastreio_main()
+  File "/home/lbruck/Desktop/DaMata/utils/Colocar_Rastreio_no_tiny.py", line 25, in main
+    for pedido_tiny in lista_tiny:
+TypeError: 'NoneType' object is not iterable
+
+------------------------------------------
